@@ -48,7 +48,7 @@ function About() {
                 <ScrollAnimation animateIn="fadeInLeft" key={index}>
                   <Tech key={index} className="tech">
                     <TechImg src={stack.img} alt={stack.name} />
-                    <TechName>{stack.name}</TechName>
+                    <TechName>{stack.name}</TechName> 
                   </Tech>
                 </ScrollAnimation>
               ))}
